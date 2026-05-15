@@ -1,0 +1,35 @@
+# Streamlit secrets — НИКОГДА не загружай на GitHub!
+.streamlit/secrets.toml
+.streamlit/secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Данные
+*.csv
+results*.csv
+phishsim_results*.csv
+
+# Временные файлы
+*.tmp
+.cache
